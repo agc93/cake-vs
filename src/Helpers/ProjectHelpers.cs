@@ -106,8 +106,8 @@ namespace Cake.VisualStudio.Helpers
         {
             try
             {
-                if (!parent.IsKind(ProjectKinds.vsProjectKindSolutionFolder) && parent.Collection == null)  // Unloaded
-                    return Enumerable.Empty<Project>();
+                //if (!parent.IsKind(ProjectKinds.vsProjectKindSolutionFolder) && parent.Collection == null)  // Unloaded
+                //    return Enumerable.Empty<Project>();
 
                 if (!string.IsNullOrEmpty(parent.FullName))
                     return new[] { parent };

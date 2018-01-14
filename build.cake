@@ -11,7 +11,7 @@ var configuration = Argument("configuration", "Release");
 
 #addin "nuget:https://www.nuget.org/api/v2?package=MagicChunks&version=1.2.0.58"
 #tool "nuget:?package=gitreleasemanager&version=0.6.0"
-#tool "nuget:?package=GitVersion.CommandLine&version=3.4.1"
+#tool "nuget:?package=GitVersion.CommandLine&version=3.6.5"
 
 //////////////////////////////////////////////////////////////////////
 // EXTERNAL SCRIPTS
